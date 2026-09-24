@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(36, 36, 124);
+    margin: 0;
+    height: 100vh;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(71, 71, 151);
+
+    height: 60px;
+    width: 100%;
+
+    border-radius: 0px 0px 20px 20px;
+}
+
+.name{
+    margin-left: 100px;
+    color: white;
+    font-family: "Montserrat";
+}
+
+.second{
+    display: flex;
+    gap: 50px;
+    margin-right: 300px;
+}
+
+.second a{
+text-decoration: none;
+color: white;
+font-weight: 600;
+font-family: "Montserrat";
+}
+
+.second a:hover{
+    color: rgb(126, 167, 255);
+}
+
+.purple{
+    color: purple;
+}
+
+.bottom{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: antiquewhite;
+height: 90%;
+width: 100%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    color: black;
+    font-size: larger;
+    height: 100%;
+    width: 50%;
+}
+
+button{
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.one{
+    display: flex;
+    align-items: flex-end;
+    gap:10px;
+   background-color: aquamarine;
+    height: 30%;
+    width: 100%;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: larger;
+}
+
+.text{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.nom{
+    display: flex;
+    width: 50%;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+ background-color: aquamarine;
+    height: 30%;
+    width: 100%;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.right{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color:  aquamarine;
+    height: 100%;
+    width: 50%;
+}
+
+img{
+    border-top-color: aquamarine;
+    height: 80%;
+    width: 50%;
+    border-radius: 40%;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+button:active{
+    background-color: rgb(206, 206, 130);
+    color: rgb(249, 248, 247);
+    height: 32px;
+    width: 151px;
+    
+}
