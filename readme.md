@@ -12,3 +12,6 @@ A responsive portfolio page.
 - Skills section
 - Projects section
 - Contact section
+
+# Photo 
+-Need better profile picture which looks professional.
